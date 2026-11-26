@@ -1,0 +1,86 @@
+[
+  {
+    "store_id": "DOM-DEL-101",
+    "title": "All POS counters down",
+    "description": "All 4 POS billing terminals stopped accepting UPI and card payments during dinner rush.",
+    "expected_category": "pos_billing",
+    "expected_needs_review": false
+  },
+  {
+    "store_id": "DOM-BLR-204",
+    "title": "KDS makeline screen delayed",
+    "description": "Kitchen display screen is showing 45-second delays on incoming KOT tickets.",
+    "expected_category": "kitchen_display",
+    "expected_needs_review": false
+  },
+  {
+    "store_id": "DOM-MUM-309",
+    "title": "Store ISP outage",
+    "description": "Primary internet and VPN tunnel are completely down across the entire store.",
+    "expected_category": "network_connectivity",
+    "expected_needs_review": false
+  },
+  {
+    "store_id": "DOM-NOI-412",
+    "title": "GRN inventory sync mismatch",
+    "description": "Daily stock count and SKU inventory sync failed after morning GRN upload.",
+    "expected_category": "inventory_sync",
+    "expected_needs_review": false
+  },
+  {
+    "store_id": "DOM-HYD-515",
+    "title": "Receipt printer paper jam",
+    "description": "One thermal receipt printer at counter 2 has a jammed cutter blade.",
+    "expected_category": "hardware_peripheral",
+    "expected_needs_review": false
+  },
+  {
+    "store_id": "DOM-PUN-618",
+    "title": "Checkout invoice timeout",
+    "description": "POS checkout screen shows intermittent timeout errors when generating GST invoices.",
+    "expected_category": "pos_billing",
+    "expected_needs_review": false
+  },
+  {
+    "store_id": "DOM-CHE-721",
+    "title": "KDS order routing frozen",
+    "description": "All kitchen display monitors stopped receiving new delivery orders from aggregator.",
+    "expected_category": "kitchen_display",
+    "expected_needs_review": false
+  },
+  {
+    "store_id": "DOM-KOL-824",
+    "title": "Store Wi-Fi packet loss",
+    "description": "Store Wi-Fi has intermittent packet loss causing handheld tablets to disconnect.",
+    "expected_category": "network_connectivity",
+    "expected_needs_review": false
+  },
+  {
+    "store_id": "DOM-DEL-901",
+    "title": "Something is wrong",
+    "description": "Not working properly since afternoon, please check asap.",
+    "expected_category": null,
+    "expected_needs_review": true
+  },
+  {
+    "store_id": "DOM-BLR-902",
+    "title": "Need help with system",
+    "description": "Weird issue happening on shift, not sure what broke.",
+    "expected_category": null,
+    "expected_needs_review": true
+  },
+  {
+    "store_id": "DOM-MUM-903",
+    "title": "POS and network and printer down",
+    "description": "POS billing failed while store internet dropped and thermal printer stopped printing.",
+    "expected_category": null,
+    "expected_needs_review": true
+  },
+  {
+    "store_id": "DOM-NOI-904",
+    "title": "Short vague report",
+    "description": "Broken since 5pm.",
+    "expected_category": null,
+    "expected_needs_review": true
+  }
+]
